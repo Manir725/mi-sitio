@@ -1,0 +1,255 @@
+/* Estilos para pantallas de ordenador (desktop) */
+body {
+  background-color: #7FF7C3;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg stroke='%234173AD' stroke-width='77.3' stroke-opacity='0.05' %3E%3Ccircle fill='%237FF7C3' cx='0' cy='0' r='1800'/%3E%3Ccircle fill='%2367e8c1' cx='0' cy='0' r='1700'/%3E%3Ccircle fill='%2350d9bd' cx='0' cy='0' r='1600'/%3E%3Ccircle fill='%233ac9b9' cx='0' cy='0' r='1500'/%3E%3Ccircle fill='%2323bab4' cx='0' cy='0' r='1400'/%3E%3Ccircle fill='%2305abad' cx='0' cy='0' r='1300'/%3E%3Ccircle fill='%23009ca5' cx='0' cy='0' r='1200'/%3E%3Ccircle fill='%23008c9c' cx='0' cy='0' r='1100'/%3E%3Ccircle fill='%23007d91' cx='0' cy='0' r='1000'/%3E%3Ccircle fill='%23006f85' cx='0' cy='0' r='900'/%3E%3Ccircle fill='%23006079' cx='0' cy='0' r='800'/%3E%3Ccircle fill='%2309526b' cx='0' cy='0' r='700'/%3E%3Ccircle fill='%230f455d' cx='0' cy='0' r='600'/%3E%3Ccircle fill='%2312384f' cx='0' cy='0' r='500'/%3E%3Ccircle fill='%23122b40' cx='0' cy='0' r='400'/%3E%3Ccircle fill='%23101f32' cx='0' cy='0' r='300'/%3E%3Ccircle fill='%230c1423' cx='0' cy='0' r='200'/%3E%3Ccircle fill='%23000316' cx='0' cy='0' r='100'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+  justify-content:center;
+  align-items: center;
+}
+.nav-container img {
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+}
+.post-title, .catalogue-title {
+  color: #9df8dd;
+  justify-content: center;
+  align-items: center;
+}
+.nav a {
+  color: #a3f7e4;
+  justify-content: center;
+  align-items: center;
+}
+.indexhero {
+  margin-top: 1rem;
+  background-color: #97f7e7;
+  color: #000000;
+  text-align: center;
+  padding: 3.5rem 3rem;
+  font-size: 1.2rem;
+  justify-content: center;
+  align-items: center;
+}
+.indexhero h1 {
+  color: #000000;
+  font-size: 6rem;
+  margin: 1rem 0;
+  justify-content: center;
+  align-items: center;
+}
+.indexhero p {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.btn{
+  display: inline-block;
+  background-color: rgb(31, 29, 29);
+  color: mediumaquamarine;
+  text-decoration: none;
+  padding: 13px 25px;
+  margin-top: 25px;
+  justify-content: center;
+  align-items: center;
+}
+.btn:hover{
+  background-color: rgb(154, 30, 165);
+}
+.center {
+  display: inline-block;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 13px 25px;
+  margin-top: 25px;
+}
+.slide-right{
+animation:slide-right 4s linear infinite
+}
+@keyframes slide-right{
+0%{
+  transform:translateX(-10);
+}
+50%{
+  transform:translateX(80px);
+}
+100%{
+  transform:translateX(0);
+}
+}
+}
+
+/* Estilos para tablet */
+@media screen and (max-width: 1200px) {
+  /* Reducir el tamaño de la imagen del encabezado */
+  .nav-container img {
+   height: 30px;
+  }
+
+  /* Reducir el tamaño de los títulos */
+  .post-title, .catalogue-title {
+  color: #9df8dd;
+  font-size: 2.8rem;
+  justify-content: center;
+  align-items: center;
+  }
+.nav a {
+  color: #a3f7e4;
+  justify-content: center;
+  align-items: center;
+}
+  /* Reducir el tamaño del texto de la descripción de los posts */
+  .post-description {
+    font-size: 2rem;
+  }
+}
+.indexhero {
+  margin-top: 2rem;
+  background-color: #97f7e7;
+  color: #000000;
+  text-align: center;
+  padding: 3.5rem 3rem;
+  font-size: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.indexhero h1 {
+  color: #000000;
+  font-size: 2.2rem;
+  margin: 1rem 0;
+  padding: 60px;
+  justify-content: center;
+  align-items: center;
+}
+.indexhero p {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.btn{
+  display: inline-block;
+  background-color: rgb(31, 29, 29);
+  color: mediumaquamarine;
+  text-decoration: none;
+  padding: 13px 25px;
+  margin-top: 25px;
+  justify-content: center;
+  align-items: center;
+}
+.btn:hover{
+  background-color: rgb(154, 30, 165);
+}
+.center {
+  display: inline-block;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 13px 25px;
+  margin-top: 25px;
+}
+.slide-right{
+animation:slide-right 4s linear infinite
+}
+@keyframes slide-right{
+0%{
+  transform:translateX(-10);
+}
+50%{
+  transform:translateX(40px);
+}
+100%{
+  transform:translateX(0);
+}
+}
+}
+/* Estilos para móvil */
+@media screen and (max-width: 800px) {
+  /* Reducir aún más el tamaño de la imagen del encabezado */
+  .nav-container img {
+    height: 20px;
+  }
+
+  /* Reducir aún más el tamaño de los títulos */
+  .post-title, .catalogue-title {
+    font-size: 2.1rem;
+  }
+.nav a {
+  color: #a3f7e4;
+  justify-content: center;
+  align-items: center;
+}
+  /* Reducir aún más el tamaño del texto de la descripción de los posts */
+  .post-description {
+    font-size: 0.7rem;
+  }
+  .indexhero {
+  margin-top: 2rem;
+  background-color: #97f7e7;
+  color: #000000;
+  text-align: center;
+  padding: 3.5rem 3rem;  
+  font-size: 0.7rem;
+  justify-content: center;
+  align-items: center;
+}
+.indexhero h1 {
+  color: #000000;
+  font-size: 1.9rem;
+  margin: 1rem 0;
+  padding: 40px;
+  font-size: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+.indexhero p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.btn{
+  display: inline-block;
+  background-color: rgb(31, 29, 29);
+  color: mediumaquamarine;
+  text-decoration: none;
+  padding: 13px 25px;
+  margin-top: 25px;
+  justify-content: center;
+  align-items: center;
+}
+.btn:hover{
+  background-color: rgb(154, 30, 165);
+}
+.center {
+  display: inline-block;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 13px 25px;
+  margin-top: 25px;
+}
+.slide-right{
+animation:slide-right 4s linear infinite
+}
+@keyframes slide-right{
+0%{
+  transform:translateX(-10);
+}
+50%{
+  transform:translateX(20px);
+}
+100%{
+  transform:translateX(0);
+}
+}
+}
+
+
+

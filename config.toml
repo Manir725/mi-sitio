@@ -1,0 +1,18 @@
+baseURL = "https://manir725.github.io/mi-sitio/"
+languageCode = "es"
+title = "MI CURRICULUM INTERACTIVO"
+theme = "tale"
+
+[Author]
+  name = "Manuel Alises Núñez"
+
+[menu]
+  [[menu.main]]
+    identifier = "contacto"
+    name = "CONTACTO"
+    title = "CONTACTO"
+    url = "/contacto/"
+    weight = 0
+
+[params]
+  css = ["css/estilos.css"]
